@@ -1,6 +1,5 @@
 import React from "react";
 import { motion } from "framer-motion";
-import "animate.css/animate.min.css";
 import Section from "../components/Section";
 import {
   PROJECTS_INTRO,
