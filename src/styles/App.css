@@ -1,0 +1,8 @@
+body {
+  --tw-bg-opacity: 1;
+  background-color: rgba(219, 234, 254, var(--tw-bg-opacity));
+}
+
+body {
+  padding: 45px;
+}
