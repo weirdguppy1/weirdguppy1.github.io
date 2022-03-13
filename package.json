@@ -1,9 +1,9 @@
 {
-  "name": "react-cra-tailwindcss-boilerplate",
+  "name": "Personal Website",
   "version": "1.0.0",
-  "author": "Thomas Jouaville",
+  "author": "Mark Fang",
   "private": true,
-  "homepage": "https://theteencoder.github.io/personal-website",
+  "homepage": "https://weirdguppy1.github.io",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
