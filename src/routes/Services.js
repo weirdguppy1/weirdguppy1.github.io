@@ -32,7 +32,7 @@ const Services = () => {
           </span>
         </h1>
       </motion.div>
-      <div className="flex flex-col space-y-6">
+      <div className="flex flex-col space-y-6 max-w-xl">
         <Section title="My Services">
           <SERVICES_INTRO />
           {SERVICES_SKILLS.map((element) => {

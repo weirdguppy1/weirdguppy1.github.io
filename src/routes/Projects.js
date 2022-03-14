@@ -7,7 +7,7 @@ import {
   PROJECT_2,
   PROJECT_3,
   PROJECT_4,
-  PROJECT_5
+  PROJECT_5,
 } from "../content/content";
 import Navbar from "../components/Navbar";
 import Card from "../components/Card";
@@ -52,7 +52,9 @@ const Projects = () => {
           <Card link="/" title="Personal Website" image={PersonalWebsiteImg}>
             {PROJECT_2}
           </Card>
-          <Card title="PAAS" image={MyBioImg}>{PROJECT_3}</Card>
+          <Card title="PAAS" image={MyBioImg}>
+            {PROJECT_3}
+          </Card>
           <Card
             link="https://quotes-app-sigma.vercel.app/"
             title="Quotes App"
