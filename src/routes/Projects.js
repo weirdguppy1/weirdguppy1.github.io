@@ -8,6 +8,8 @@ import {
   PROJECT_3,
   PROJECT_4,
   PROJECT_5,
+  PROJECT_6,
+  PROJECT_7,
 } from "../content/content";
 import Navbar from "../components/Navbar";
 import Card from "../components/Card";
@@ -16,6 +18,9 @@ import PersonalWebsiteImg from "../media/personalwebsite.png";
 import QuotesImg from "../media/quotesapp.png";
 import MyBioImg from "../media/mybio.png";
 import ImageSharingImg from "../media/plumapp.png";
+import ChatAppImg from "../media/chat-app.png";
+import DictAppImg from "../media/definitions.png";
+
 
 const Projects = () => {
   return (
@@ -23,7 +28,7 @@ const Projects = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 1 }}
-      className="flex flex-col justify-center items-center"
+      className="flex flex-col items-center justify-center"
     >
       <Navbar />
       <motion.div
@@ -34,14 +39,14 @@ const Projects = () => {
         className="mt-5"
       >
         <h1 className="text-4xl sm:text-6xl md:text-8xl lg:text-8xl lg:text-9xl">
-          <span className=" bg-clip-text text-transparent bg-gradient-to-r from-gray-800 to-teal-500">
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-gray-800 to-teal-500">
             Projects.
           </span>
         </h1>
       </motion.div>
       <div className="flex flex-col">
         <Section title="Projects are Everything!">{PROJECTS_INTRO}</Section>
-        <div className="flex flex-col space-y-2 max-w-xl">
+        <div className="flex flex-col max-w-xl space-y-2">
           <Card
             link="https://check-in-prj2.vercel.app/"
             title="SLMCS Check-in System"
@@ -68,6 +73,20 @@ const Projects = () => {
             image={ImageSharingImg}
           >
             {PROJECT_5}
+          </Card>
+          <Card
+            link="https://chat-app-alpha-wheat.vercel.app/"
+            title="Chat App"
+            image={ChatAppImg}
+          >
+            {PROJECT_6}
+          </Card>
+          <Card
+            link="https://definitions-app.vercel.app"
+            title="Dictionary App"
+            image={DictAppImg}
+          >
+            {PROJECT_7}
           </Card>
         </div>
       </div>

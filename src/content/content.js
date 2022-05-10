@@ -28,12 +28,20 @@ export const PROJECT_3 = `
 export const PROJECT_4 = `
   I created a project to look at quotes. You can like and save quotes and search for them as well. Want to get freaky? Press 'Random '
   to get a random quote. 
-`
+`;
 
 export const PROJECT_5 = `
   I believe in freedom and security of the internet. I created a website to share images with a link. The catch is that the image is 
   deleted after a viewer has seen the image. Make your image transfers quick and private. (Secure file uploading app in development!)
-`
+`;
+
+export const PROJECT_6 = `
+  I built a chat app that uses chat rooms with a chat filter for students. Sign up with Google and join a chat room with a code.
+`;
+
+export const PROJECT_7 = `
+  I created this app in less than fifteen minutes. This was one of my first apps on how I learned to connect and API to a React website. Search definitions for words.
+`;
 
 export const SERVICES_INTRO = () => {
   return (
@@ -41,7 +49,7 @@ export const SERVICES_INTRO = () => {
       I am a passionate developer always ready to find some work. I'm always
       ready to tackle any web project that would help elevate your business to
       the next level. You can contact me at my work email{" "}
-      <span className="bg-clip-text text-transparent bg-gradient-to-r from-pink-700 to-teal-800">
+      <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-700 to-teal-800">
         mfangcoding@gmail.com
       </span>
       .
@@ -57,7 +65,7 @@ export const SERVICES_HELPYOU = `
 
 export const SERVICES_WHY = () => {
   return (
-    <ol className="text-sm flex flex-col space-y-3 max-w-lg">
+    <ol className="flex flex-col max-w-lg space-y-3 text-sm">
       <li>
         1. Your website will help establish your brand as it conveys
         professionalism.
@@ -80,8 +88,8 @@ export const SERVICES_WHY = () => {
 };
 
 export const SERVICES_SKILLS = [
-  { skill: "HTML + CSS", level: 100, color: 'red', duration: 1 },
-  { skill: "React", level: 90, color: 'indigo', duration: 1.5},
-  { skill: "Server Development", level: 70, color: 'pink', duration: 2 },
-  { skill: "Python", level: 40, color: 'green' , duration: 2.5},
+  { skill: "HTML + CSS", level: 100, color: "red", duration: 1 },
+  { skill: "React", level: 90, color: "indigo", duration: 1.5 },
+  { skill: "Server Development", level: 70, color: "pink", duration: 2 },
+  { skill: "Python", level: 40, color: "green", duration: 2.5 },
 ];
